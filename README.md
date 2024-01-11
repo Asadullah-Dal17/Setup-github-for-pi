@@ -17,16 +17,20 @@
 
 
 ## Check the details 
+
 ``` bash
 git config --list
 ```
+
 ## Create the ssh agent using following command
+
 ```bash
 github@ubuntu:~/.ssh$ ssh-keygen -o -t rsa -C "email@example.com"
 ```
 ## Display SSH key
+
 ```bash 
 cat id_rsa.pub
 ```
 
-Add Key to the Github
+## Add SSH Key to the Github account.
